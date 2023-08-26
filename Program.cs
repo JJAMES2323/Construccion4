@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 //calculadora
 double numerador1 = 0;
 double numerador2 = 0;
@@ -11,6 +11,10 @@ int opcion = 0;
 double temp1 = 0;
 double temp2 = 0;
 double demcomun = 0;
+string faltan1= "____";
+string faltan2= "__";
+string faltan3= "______";
+
 //tablas
 Random random = new Random();
 int numeroAleatorio = 0;
@@ -145,27 +149,7 @@ do
     }
   }else if (opcion==4){
 do {
-    if(palabra1==1 && palabra2==1 && palabra3==1){
-      Console.WriteLine("El gato juega en el jardin.");
-    }else if (palabra1==1 && palabra2==0 && palabra3==0)
-    {
-      Console.WriteLine("El gato juega __ el ______.");
-    }else if(palabra2==1 && palabra1==0 && palabra3==0){
-      Console.WriteLine("El ____ juega en el ______.");
-    }else if (palabra3==1 && palabra1==0 && palabra2==0)
-    {
-      Console.WriteLine("El ____ juega __ el jardin.");
-    }else if (palabra1==1 && palabra2==1 && palabra3==0)
-    {
-      Console.WriteLine("El gato juega en el ______.");
-    }else if (palabra3==1 && palabra1==1 && palabra2==0)
-    {
-      Console.WriteLine("El gato juega __ el jardin.");
-    }else if(palabra2==1 && palabra3==1 && palabra2==0){
-      Console.WriteLine("El ____ juega en el jardin.");
-    }else{
-      Console.WriteLine("El ____ juega __ el ______.");
-    }
+    Console.WriteLine("el "+faltan1+" juega "+faltan2+" el "+faltan3);
     Console.WriteLine("Ingrese alguna de las palabras que faltan:");
     palabra = Console.ReadLine().ToLower();
 
@@ -174,19 +158,35 @@ do {
         aciertos++;
         fallos++;
         palabra1 = 1;
+        faltan1=palabra;
+        Console.WriteLine("aciertos: "+aciertos);
+        Console.WriteLine("intentos restantes:"+(10-fallos));
     } else if (palabra2 == 0 && palabra == "en") {
         Console.WriteLine("Has acertado");
         aciertos++;
         fallos++;
         palabra2 = 1;
+        faltan2=palabra;
+        Console.WriteLine("aciertos: "+aciertos);
+        Console.WriteLine("intentos restantes:"+(10-fallos));        
     } else if (palabra3 == 0 && palabra == "jardin") {
         Console.WriteLine("Has acertado");
         aciertos++;
         fallos++;
         palabra3 = 1;
+        faltan3=palabra;
+        Console.WriteLine("aciertos: "+aciertos);
+        Console.WriteLine("intentos restantes:"+(10-fallos));        
     } else {
-        Console.WriteLine("Has fallado");
+        if(palabra1==1 ||palabra2==1|| palabra3==1){
+        Console.WriteLine("ya has adivinado esta palabra");  
+        }else{
+          Console.WriteLine("Has fallado");
+        }        
         fallos++;
+        Console.WriteLine("aciertos: "+aciertos);
+        Console.WriteLine("intentos restantes:"+(10-fallos));        
+
     }
 } while (aciertos < 3 && fallos < 10);
     if(aciertos==3){
