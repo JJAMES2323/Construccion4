@@ -1,0 +1,14 @@
+C:\Users\James\Desktop\James\Universidad\Tdea 2023-2\Construccion  de software 4\Taller1\obj\Debug\net7.0\Taller1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\Desktop\James\Universidad\Tdea 2023-2\Construccion  de software 4\Taller1\obj\Debug\net7.0\Taller1.AssemblyInfoInputs.cache
+C:\Users\James\Desktop\James\Universidad\Tdea 2023-2\Construccion  de software 4\Taller1\obj\Debug\net7.0\Taller1.AssemblyInfo.cs
+C:\Users\James\Desktop\James\Universidad\Tdea 2023-2\Construccion  de software 4\Taller1\obj\Debug\net7.0\Taller1.csproj.CoreCompileInputs.cache
+C:\Users\James\Desktop\James\Universidad\Tdea 2023-2\Construccion  de software 4\Taller1\bin\Debug\net7.0\Taller1.exe
+C:\Users\James\Desktop\James\Universidad\Tdea 2023-2\Construccion  de software 4\Taller1\bin\Debug\net7.0\Taller1.deps.json
+C:\Users\James\Desktop\James\Universidad\Tdea 2023-2\Construccion  de software 4\Taller1\bin\Debug\net7.0\Taller1.runtimeconfig.json
+C:\Users\James\Desktop\James\Universidad\Tdea 2023-2\Construccion  de software 4\Taller1\bin\Debug\net7.0\Taller1.dll
+C:\Users\James\Desktop\James\Universidad\Tdea 2023-2\Construccion  de software 4\Taller1\bin\Debug\net7.0\Taller1.pdb
+C:\Users\James\Desktop\James\Universidad\Tdea 2023-2\Construccion  de software 4\Taller1\obj\Debug\net7.0\Taller1.dll
+C:\Users\James\Desktop\James\Universidad\Tdea 2023-2\Construccion  de software 4\Taller1\obj\Debug\net7.0\refint\Taller1.dll
+C:\Users\James\Desktop\James\Universidad\Tdea 2023-2\Construccion  de software 4\Taller1\obj\Debug\net7.0\Taller1.pdb
+C:\Users\James\Desktop\James\Universidad\Tdea 2023-2\Construccion  de software 4\Taller1\obj\Debug\net7.0\Taller1.genruntimeconfig.cache
+C:\Users\James\Desktop\James\Universidad\Tdea 2023-2\Construccion  de software 4\Taller1\obj\Debug\net7.0\ref\Taller1.dll
